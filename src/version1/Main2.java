@@ -9,5 +9,7 @@ public class Main2 {
         System.out.println ("some code 2");
 
         System.out.println ("some code 3");
+
+        System.out.println ("some code 4");
     }
 }
