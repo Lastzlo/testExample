@@ -5,13 +5,38 @@ public class Home {
     private String address;
     private boolean openDoor;
 
-    Home(){
-        this.address = "no adress";
-        this.namOfFloors = 1;
-        this.openDoor = false;
+    public Home(){
+
     }
 
+    public Home(int namOfFloors, String address){
+        this.namOfFloors = namOfFloors;
+        this.address = address;
+    }
 
+    public void setAddress (String address) {
+        this.address = address;
+    }
 
+    public String getAddress () {
+        return address;
+    }
+
+    public void setNamOfFloors (int namOfFloors) {
+        this.namOfFloors = namOfFloors;
+    }
+
+    public int getNamOfFloors () {
+        return namOfFloors;
+    }
+
+    public void setOpenDoor (boolean openDoor) {
+        this.openDoor = openDoor;
+    }
+
+    public boolean isOpenDoor () {
+        return openDoor;
+    }
 }
+
 
